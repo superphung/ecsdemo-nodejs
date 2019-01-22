@@ -21,7 +21,7 @@ app.use(morgan('combined'));
 app.use('/health', require('express-healthcheck')());
 
 // main route
-app.get('/', function (req, res) {
+app.get('/node', function (req, res) {
   res.set({
   'Content-Type': 'text/plain'
 })
