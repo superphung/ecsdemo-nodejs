@@ -4,3 +4,5 @@ service:
   maxSize: 6
   port: 3000
   discoveryTTL: 5
+  pathPatterns:
+    - /node*
